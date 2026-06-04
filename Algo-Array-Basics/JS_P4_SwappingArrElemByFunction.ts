@@ -6,3 +6,4 @@ function ArrSwapper(arr: number[]): number[]{
 }
 let arrNew: number[]= [40,50];
 console.log(ArrSwapper(arrNew));
+console.log(arrNew);
