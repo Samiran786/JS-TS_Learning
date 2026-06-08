@@ -1,4 +1,4 @@
-let arrRot = [10,20,30,40,50,60];
+let arrRot = [10,20,30,40,50,60]; // 50 60 10 20 30 40
 // need to rotate 3 time
 let index_f:number = 0;
 let index_l:number = arrRot.length-1;
