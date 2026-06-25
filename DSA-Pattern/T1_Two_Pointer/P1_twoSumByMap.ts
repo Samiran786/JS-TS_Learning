@@ -46,7 +46,7 @@ Constraints:
 */
 
 let twoSumArr: number[] = [2,3,4];
-let target:number = 6;
+let target1:number = 6;
 
 
 
@@ -65,4 +65,4 @@ function twoSumIdentifier(arr:number[], target:number):number[] | null{
     return null;
 }
 
-console.log(twoSumIdentifier(twoSumArr,target));
+console.log(twoSumIdentifier(twoSumArr,target1));
