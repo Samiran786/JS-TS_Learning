@@ -1,3 +1,4 @@
+//the number of characters in each word of given string by map
 let charCount:string = 'The String Input will be fun';
 let charCountArr:string[] = charCount.split(/\s+/);
 console.log(charCountArr);
