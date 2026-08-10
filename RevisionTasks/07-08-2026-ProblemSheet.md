@@ -28,7 +28,7 @@ First solve this using a temporary variable. Then try solving it without one.
 
 Source: [`JS_P2_SwappingNumber.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P2_SwappingNumber.ts)
 
-### 1.3 Swap Two Numbers Inside a Function
+### 1.3 Swap Two Numbers Inside a Function - TS[Done], Java[]
 
 Write a function that accepts two integer values and swaps them. Observe whether changing the function parameters changes the original variables outside the function.
 
