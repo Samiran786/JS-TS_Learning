@@ -15,7 +15,7 @@ Output: 110
 
 Source: [`JS_P1_SumOfAllValues.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P1_SumOfAllValues.ts)
 
-### 1.2 Swap Two Numbers
+### 1.2 Swap Two Numbers - TS[Done], Java[]
 
 Given two integer variables `a` and `b`, swap their values without losing either value.
 
