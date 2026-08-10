@@ -4,7 +4,7 @@ Problems collected from the `AlgoPrep` folder. Solve every problem in both **Typ
 
 ## 1. Array Basics
 
-### 1.1 Sum of All Array Values
+### 1.1 Sum of All Array Values - TS[Done], Java[]
 
 Given an integer array `arr` of length `N`, calculate and return the sum of all elements.
 
