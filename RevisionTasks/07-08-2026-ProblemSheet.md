@@ -34,7 +34,7 @@ Write a function that accepts two integer values and swaps them. Observe whether
 
 Source: [`JS_P3_SwappingNumberByFunction.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P3_SwappingNumberByFunction.ts)
 
-### 1.4 Swap Two Array Elements Using a Function
+### 1.4 Swap Two Array Elements Using a Function - TS[Done], Java[]
 
 Given an integer array, write a function that swaps the elements at index `0` and index `1`.
 
@@ -45,7 +45,7 @@ Output: [50, 40]
 
 Source: [`JS_P4_SwappingArrElemByFunction.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P4_SwappingArrElemByFunction.ts)
 
-### 1.5 Swap Elements at Two Given Indices
+### 1.5 Swap Elements at Two Given Indices - TS[Done], Java[]
 
 Given an integer array and two valid indices `firstIndex` and `secondIndex`, swap the elements at those indices.
 
@@ -60,7 +60,7 @@ Output: [11, 15, 13, 14, 12]
 
 Source: [`JS_P5_SwappingIndeces.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P5_SwappingIndeces.ts)
 
-### 1.6 Reverse an Array
+### 1.6 Reverse an Array - TS[Done], Java[]
 
 Given an integer array, reverse it in place without using a second array.
 
@@ -73,7 +73,7 @@ Use the two-pointer technique.
 
 Source: [`JS_P6_ArrayReverse.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P6_ArrayReverse.ts)
 
-### 1.7 Reverse a Part of an Array
+### 1.7 Reverse a Part of an Array - TS[Done], Java[]
 
 Given an integer array and two indices `start` and `end`, reverse only the elements between those indices, inclusive. Keep all other elements unchanged.
 
@@ -88,7 +88,7 @@ Output: [10, 20, 60, 50, 40, 30, 70]
 
 Source: [`JS_P7_ArrayRevByGivenPart.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P7_ArrayRevByGivenPart.ts)
 
-### 1.8 Rotate an Array to the Right
+### 1.8 Rotate an Array to the Right - TS[Done], Java[]
 
 Given an integer array and an integer `K`, rotate the array to the right by `K` positions. If `K` is greater than the array length, use `K % N`.
 
@@ -104,7 +104,7 @@ Solve this using the reversal algorithm. Also try the repeated `pop()` and `unsh
 
 Source: [`JS_P8_ArrayRotate.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P8_ArrayRotate.ts)
 
-### 1.9 Rotate an Array to the Left
+### 1.9 Rotate an Array to the Left - TS[Done], Java[]
 
 Given an integer array and an integer `K`, rotate the array to the left by `K` positions.
 
@@ -118,7 +118,7 @@ Output: [3, 4, 5, 1, 2]
 
 Source: [`JS_P10_ArrayRotateAntiClock.ts`](../AlgoPrep/Algo-Array-Basics/Learning-phase/JS_P10_ArrayRotateAntiClock.ts)
 
-### 1.10 Two Sum Using Brute Force
+### 1.10 Two Sum Using Brute Force - TS[Done], Java[]
 
 Given an integer array `arr` and an integer `target`, determine whether two different elements have a sum equal to `target`.
 
@@ -140,7 +140,7 @@ Given an integer array, count how many elements have at least one element greate
 
 ```text
 Input:  [-4, -3, 7, 9, 7, 8, 9, -1, 11, 0]
-Output: 9
+Output: 6
 ```
 
 The maximum element does not have a greater element, so all other elements are counted.

@@ -1,5 +1,5 @@
 // need to find the count of values which have atleast 1 value greater than itself availble in the array
-let arrExp:number[] = [-4,-3,7,9,7,8,9,-1,11,0]; // number is 6
+let arrExp:number[] = [-4,-3,7,9,7,8,9,-1,11,0]; // number is 9
 //lets find the max value in this, all others will be small
 
 let max:number = arrExp[0];
