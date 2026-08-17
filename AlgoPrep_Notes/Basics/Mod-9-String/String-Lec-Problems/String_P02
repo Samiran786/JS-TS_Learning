@@ -1,0 +1,23 @@
+String_Reverse String
+Success rate: 25.17%
+
+1.Take as input String.
+
+Write a function that reverses the string and then print that String.
+
+Input Format:
+String representing S.
+
+Output Format:
+print the string after reversing it.
+
+Constraints:
+Size of String may be large.
+
+Sample test cases
+Input
+abcdefg
+
+Expected output
+
+gfedcba

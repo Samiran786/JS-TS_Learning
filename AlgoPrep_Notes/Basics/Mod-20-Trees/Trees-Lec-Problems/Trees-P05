@@ -1,0 +1,23 @@
+Trees_Sum of Tree
+Success rate: 45.65%
+
+Given the root of a binary tree of size N, complete the function sumBT() that should return the sum of all the nodes in the binary tree.
+
+Input Format
+The input consists of a single line containing integers in level-order representation of the binary tree.
+Each integer represents a node's value. -1 denotes a null value (i.e., the absence of a node).
+
+Output Format
+Print a single integer, which is the sum of all nodes in the binary tree.
+
+Constraints:
+1<=N<=100
+
+Sample test cases
+Input
+3 9 20 -1 -1 15 7
+
+Expected output
+
+54
+

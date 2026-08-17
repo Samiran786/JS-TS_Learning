@@ -1,0 +1,22 @@
+DP_Climb Stairs
+Success rate: 38.95%
+
+You are climbing a staircase that has n steps to reach the top. Each time you can either take 1 step or 2 steps. Determine the number of distinct ways you can reach the top of the staircase.
+
+Input Format:
+A single integer n, representing the number of steps in the staircase.
+
+Output Format:
+A single integer representing the number of distinct ways to climb to the top.
+
+Constraints:
+1 <= n <= 45
+
+Sample test cases
+Input
+7
+
+Expected output
+
+21
+

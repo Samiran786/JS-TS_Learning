@@ -1,0 +1,27 @@
+LinkedList_Delete Node
+Success rate: 7.62%
+
+Given a singly linked list and an integer x, delete the x-th node from the singly linked list. Assume the nodes are 1-indexed.
+
+Input Format:
+An integer n representing the number of nodes in the linked list.
+n integers representing the elements of the linked list.
+An integer x representing the position of the node to be deleted.
+
+Output Format:
+Print the modified linked list after deleting the x-th node.
+
+Constraints:
+2 <= N <= 10^5
+1 <= x <= N
+
+Sample test cases
+Input
+5
+1 2 3 4 5
+3
+
+Expected output
+
+1 2 4 5 
+

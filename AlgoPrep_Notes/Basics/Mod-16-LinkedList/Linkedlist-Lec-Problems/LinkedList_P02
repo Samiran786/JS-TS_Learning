@@ -1,0 +1,31 @@
+LinkedList_Modified Deletion
+Success rate: 14.93%
+
+Given a node from a singly linked list, delete this node. You do not have access to the head of the linked list, but you are guaranteed that the given node is not the last node in the list. All the values of the linked list are unique.
+
+Deleting a node means that the value of the given nodeshould be removed from the list, and the number of nodes should decrease by one while maintaining the order of the other nodes.
+
+Input Format
+The first line contains an integer n, the number of nodes in the linked list.
+The next n lines each contain an integer, representing the values of the nodes in the linked list.
+The last line contains an integer x, the value of the node to be deleted.
+
+Output Format
+Print the values of the nodes in the modified linked list, separated by spaces.
+
+Constraints:
+The number of the nodes in the given list is in the range [2, 1000].
+-1000 <= Node.val <= 1000
+The value of each node in the list is unique.
+The node to be deleted is in the list and is not a tail node.
+
+Sample test cases
+Input
+4
+100 200 300 400
+300
+
+Expected output
+
+100 200 400 
+

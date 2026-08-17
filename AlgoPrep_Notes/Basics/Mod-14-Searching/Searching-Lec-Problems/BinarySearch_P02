@@ -1,0 +1,26 @@
+Binary Search_Floor in an Array
+Success rate: 21.55%
+
+Given a sorted array of n integers and a number k, Return floor(k).
+
+Input Format:
+First line contains integer n representing the length of array
+Second line contains n integers
+Third line contains integer k
+
+Output Format:
+Return floor of k.
+
+Constraints:
+1 <= n <= 10^9
+
+Sample test cases
+Input
+9
+-4 3 4 7 10 11 12 15 19
+15
+
+Expected output
+
+15
+

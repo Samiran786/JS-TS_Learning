@@ -1,0 +1,25 @@
+BITS_SingleNumber
+Success rate: 41.97%
+
+You are given a non-empty array of integers, nums, where every element appears exactly twice except for one unique element that appears only once. Your task is to find and return the unique element.
+
+Input Format:
+An array nums of integers with the above constraints.
+
+Output Format:
+A single integer that represents the unique element which appears only once in the array.
+
+Constraints:
+1 <= nums.length <= 3 * 104
+-3 * 104 <= nums[i] <= 3 * 104
+Each element in the array appears twice except for one element which appears only once.
+
+Sample test cases
+Input
+7
+4 5 1 2 5 1 2
+
+Expected output
+
+4
+

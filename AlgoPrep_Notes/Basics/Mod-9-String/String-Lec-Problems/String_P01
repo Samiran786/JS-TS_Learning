@@ -1,0 +1,24 @@
+String_Toggle Character
+Success rate: 16.20%
+
+1.Take as input String.
+
+Write a function that toggles the case of all characters in the string and then
+print that String.
+
+Input Format:
+String representing S.
+
+Output Format:
+print the string after toggling the character.
+
+Constraints:
+Size of String may be large.
+
+Sample test cases
+Input
+aBCs
+
+Expected output
+
+AbcS

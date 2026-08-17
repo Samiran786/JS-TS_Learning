@@ -1,0 +1,25 @@
+Trees_Postorder Traversal
+Success rate: 1.15%
+
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
+
+Input Format:
+The input consists of a sequence of integers where the first integer represents the root of the binary tree.
+Subsequent integers represent the level-order traversal of the tree, where -1 denotes a null node.
+The input is space-separated.
+
+Output Format:
+Output the inorder traversal of the binary tree as space-separated integers.
+
+Constraints:
+The number of the nodes in the tree is in the range [0, 100].
+-100 <= Node.data <= 100
+
+Sample test cases
+Input
+1 2 3 -1 -1 -1 -1
+
+Expected output
+
+2 1 3 
+

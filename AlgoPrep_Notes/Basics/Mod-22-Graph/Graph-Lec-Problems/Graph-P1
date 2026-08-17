@@ -1,0 +1,31 @@
+Graphs_ BFS Traversal
+Success rate: 30.47%
+
+Given a directed graph, perform a Breadth First Traversal (BFS) starting from vertex 0. You can move from node u to node v only if there is a directed edge from u to v. The BFS traversal should start from the 0th vertex and proceed left to right according to the input graph. Only consider nodes that are directly or indirectly connected to node 0.
+
+t Format:
+The first line contains an integer V representing the number of vertices in the graph.
+The second line contains an integer E representing the number of edges in the graph.
+The next E lines each contain two integers u and v, denoting an edge from vertex u to vertex v.
+
+Output Format:
+A single line of space-separated integers representing the BFS traversal starting from vertex 0.
+
+Constraints:
+1 ≤ V, E ≤ 104
+
+Sample test cases
+Input
+6
+7
+0 1
+0 3
+1 4
+2 4
+3 2
+3 5
+4 5
+
+Expected output
+
+0 1 3 4 2 5 

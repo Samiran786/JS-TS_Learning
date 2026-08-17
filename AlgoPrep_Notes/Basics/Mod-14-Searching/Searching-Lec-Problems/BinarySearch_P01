@@ -1,0 +1,26 @@
+Binary Search_ Search in Array
+Success rate: 26.58%
+
+Given a sorted array of n integers and a number k, Return true if k is present otherwise return false.
+
+Input Format:
+First line contains integer n representing the length of array
+Second line contains n integers
+Third line contains integer k
+
+Output Format:
+Return true if k is present else false.
+
+Constraints:
+1 <= n <= 10^9
+
+Sample test cases
+Input
+10
+4 7 10 13 15 20 21 24 26 28
+13
+
+Expected output
+
+true
+

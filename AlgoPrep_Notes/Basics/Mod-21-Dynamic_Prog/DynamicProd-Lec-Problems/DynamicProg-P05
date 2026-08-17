@@ -1,0 +1,28 @@
+DP_Number of Paths with Blockade
+Success rate: 33.94%
+
+The problem is to count all the possible paths from top left to bottom right of a MxN matrix with the constraints that from each cell you can either move to right or down.
+
+mat[i][j] == 0 represents blocked cell and mat[i][j] == 1 represents unblocked cell and you can't move via blocked cell.
+
+Input Format:
+The first line contains the number of rows N and number of columns M of matrix.
+Each of next N rows contain m numbers representing the elements of array.
+
+Output Format:
+Print the number of possible paths
+
+Constraints:
+1 <= m,n <=100
+
+Sample test cases
+Input
+3 3
+1 0 1
+1 1 1
+1 0 1
+
+Expected output
+
+1
+

@@ -1,0 +1,49 @@
+Binary Search_Single Element in Array
+Success rate: 31.51%
+
+You are given an array consisting of n integers where every element appears exactly twice, except for one element which appears exactly once. Duplicate Numbers are adjacent to each other.
+
+Return the single element that appears only once.
+
+Your solution must run in O(log n) time and O(1) space.
+
+Input Format:
+First line contains integer n representing the length of array
+Second line contains n integers
+
+Output Format:
+Return the number appearing only once.
+
+Constraints:
+1 <= n <= 10^9
+
+Sample test cases
+Input
+
+15
+4 4 1 1 9 9 11 11 20 7 7 3 3 5 5
+
+9
+1 1 2 3 3 4 4 5 5
+
+7
+3 3 7 7 10 11 11
+
+15
+4 4 1 1 9 9 11 11 7 7 3 3 5 5 20
+
+15
+20 4 4 1 1 9 9 11 11 7 7 3 3 5 5
+
+Expected output
+
+20
+
+2
+
+10
+
+20
+
+20
+

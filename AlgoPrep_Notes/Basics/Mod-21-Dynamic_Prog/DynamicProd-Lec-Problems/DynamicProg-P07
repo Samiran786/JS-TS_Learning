@@ -1,0 +1,40 @@
+DP_Cherry Pickup
+Success rate: 30.23%
+
+You are given an n x n grid representing a field of cherries, where each cell contains one of three possible values:
+
+0: The cell is empty, and you can pass through.
+1: The cell contains a cherry that you can pick up and pass through.
+-1: The cell contains a thorn that blocks your way.
+Your goal is to collect the maximum number of cherries by following these rules:
+
+Start at the top-left corner of the grid (0, 0) and reach the bottom-right corner (n - 1, n - 1) by only moving right or down through valid cells (cells with values 0 or 1).
+After reaching (n - 1, n - 1), return to (0, 0) by moving left or up through valid cells.
+When passing through a cell with a cherry (1), you pick it up, and the cell becomes empty (0).
+If there is no valid path from (0, 0) to (n - 1, n - 1), then no cherries can be collected.
+
+Input Format:
+A 2D integer array grid of size n x n where grid[i][j] represents the value at cell (i, j).
+
+Output Format:
+A single integer representing the maximum number of cherries that can be collected.
+
+Constraints:
+n == grid.length
+n == grid[i].length
+1 <= n <= 50
+grid[i][j] is -1, 0, or 1.
+grid[0][0] != -1
+grid[n - 1][n - 1] != -1
+
+Sample test cases
+Input
+3
+0 1 -1
+1 0 -1
+1 1 1
+
+Expected output
+
+5
+

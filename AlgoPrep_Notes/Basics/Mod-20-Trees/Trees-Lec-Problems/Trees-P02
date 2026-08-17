@@ -1,0 +1,29 @@
+Trees_Inorder Traversal
+Success rate: 1.68%
+
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
+
+Inorder traversal visits nodes in the following order:
+Visit the left subtree.
+Visit the root node.
+Visit the right subtree.
+
+Input Format:
+The next values represent the tree nodes in a level-order manner. Use -1 to denote a null node.
+
+Output Format:
+Output a list of integers representing the inorder traversal of the binary tree.
+
+Constraints:
+The number of nodes in the tree is in the range [0, 100].
+-100 <= Node.data <= 100
+
+Sample test cases
+Input
+7
+10 5 15 -1 -1 -1 -1
+
+Expected output
+
+15 10 7 5 
+

@@ -1,0 +1,27 @@
+Trees_Level Order Traversal
+Success rate: 25.79%
+
+Given the root of a binary tree with n nodes, find its level order traversal. Level order traversal of a tree is the breadth-first traversal of the tree, where nodes are visited level by level from left to right.
+
+Input Format:
+The input will be provided as a level-order representation of the binary tree where each node's value is separated by a space.
+A value of -1 represents a null node.
+The input is read from standard input.
+
+Output Format:
+The output should be a list of lists, where each inner list contains the values of nodes at a particular level of the tree.
+
+Constraints:
+1 ≤ n ≤ 10^5
+0 ≤ Node.data ≤ 10^9
+
+Sample test cases
+Input
+1 2 3 4 5 -1 6 -1 -1 -1 -1 -1 -1
+
+Expected output
+
+[1]
+[2, 3]
+[4, 5, 6]
+

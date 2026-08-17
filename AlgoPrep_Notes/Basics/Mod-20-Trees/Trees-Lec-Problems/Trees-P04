@@ -1,0 +1,26 @@
+Trees_Size of Tree
+Success rate: 29.21%
+
+Given the root of a binary tree, determine the total number of nodes in the tree. Each node is counted exactly once.
+
+Input Format
+The input consists of a sequence of integers where:
+Each integer represents a node in the binary tree.
+The input uses level-order traversal to describe the tree.
+A value of -1 denotes a null node.
+
+Output Format
+The output is an integer representing the number of nodes in the binary tree.
+
+Constraints:
+1 <= n <= 10^5
+1 <= values of nodes <= 10^6
+
+Sample test cases
+Input
+1 2 3 -1 -1 -1 -1
+
+Expected output
+
+3
+

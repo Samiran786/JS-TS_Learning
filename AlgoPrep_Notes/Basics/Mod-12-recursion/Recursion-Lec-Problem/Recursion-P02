@@ -1,0 +1,24 @@
+Recursion_Factorial
+Success rate: 55.50%
+
+Take as input n
+
+Print n!
+
+Input Format:
+Integer representing n
+
+Output Format:
+Integer representing n!
+
+Constraints:
+1 <= n <= 10 ^ 9
+
+Sample test cases
+Input
+5
+
+Expected output
+
+120
+

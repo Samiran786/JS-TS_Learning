@@ -1,0 +1,28 @@
+Heaps_Kth Smallest Element
+Success rate: 23.48%
+
+Given an array arr[] and an integer k, where k is smaller than the size of the array, find the kth smallest element in the given array. It is guaranteed that all elements in the array are distinct.
+
+Input Format:
+The first line contains two integers: n (the size of the array) and k (the position of the smallest element to find).
+The second line contains n distinct integers representing the elements of the array.
+
+Output Format:
+Output a single integer: the kth smallest element in the array.
+
+Constraints:
+1 <= n <= 105
+l = 0
+r = N-1
+1<= arr[i] <= 105
+1 <= k <= n
+
+Sample test cases
+Input
+5 2
+4 1 7 3 8
+
+Expected output
+
+3
+

@@ -1,0 +1,29 @@
+Recursion_Print Increasing
+Success rate: 36.74%
+
+Take as input N
+
+Print numbers from 1 to N in N lines
+
+Input Format:
+Integer representing n
+
+Output Format:
+Print numbers from 1 to N
+
+Constraints:
+1 <= n <= 10 ^ 9
+
+Sample test cases
+Input
+6
+
+Expected output
+
+1
+2
+3
+4
+5
+6
+

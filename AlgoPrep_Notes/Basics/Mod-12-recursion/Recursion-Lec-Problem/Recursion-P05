@@ -1,0 +1,26 @@
+Recursion_Smart Power
+Success rate: 30.71%
+
+Given two Integer a and n, find a^n (a raise to power n).
+
+Note: Use Recursion and Expected Time complexity is O(logN).
+
+Input Format:
+Single line contains 2 integers a and n
+
+Output Format:
+Return the answer a^n
+
+Constraints:
+1<= a <= 10
+1<= n <= 18
+
+Sample test cases
+Input
+2
+10
+
+Expected output
+
+1024
+

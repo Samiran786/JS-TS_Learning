@@ -1,0 +1,22 @@
+Queue_Even Palindrome Kth Number
+Success rate: 29.59%
+
+Given K, Print the Kth Palindrome Number in the increasing series of even digit numbers using digits 1 and 2 only.
+
+Input Format:
+The only line contains number K
+
+Output Format:
+Return the kth number of the series
+
+Constraints:
+1<= K <=20
+
+Sample test cases
+Input
+5
+
+Expected output
+
+2112
+

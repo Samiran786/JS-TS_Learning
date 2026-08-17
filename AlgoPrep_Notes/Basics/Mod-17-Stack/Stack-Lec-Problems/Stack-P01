@@ -1,0 +1,22 @@
+Stack_Remove Adjacent Duplicate
+Success rate: 22.85%
+
+Given a string S, Remove equal pair of adjacent character and return the final String
+
+Input Format:
+A single line containing the string
+
+Output Format:
+Print the String after removing all the adjacent same characters
+
+Constraints:
+1 <= S.length() <= 10^5
+
+Sample test cases
+Input
+abbbbd
+
+Expected output
+
+ad
+

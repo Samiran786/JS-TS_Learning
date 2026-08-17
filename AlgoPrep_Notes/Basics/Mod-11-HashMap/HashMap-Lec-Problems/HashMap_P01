@@ -1,0 +1,29 @@
+HashMap_FrequencyQueries
+Success rate: 29.43%
+
+Given N array elements and Q queries. For every query find frequency of element in array.
+
+Input Format:
+First line contains 2 integers N, M denoting size of the array and the number of queries.
+Second line contains the elements of the array.
+Third line contains M elements representin queries.
+
+Output Format:
+Output M integers in different lines denoting the frequency of each query.
+
+Constraints:
+1 <= arr.length <= 10^5
+1 <= arr[i], value <= 10^4
+0 <= left <= right < arr.length
+
+Sample test cases
+Input
+9 2
+2 8 6 9 8 6 8 2 11
+2 8
+
+Expected output
+
+2
+3
+

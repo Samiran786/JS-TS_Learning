@@ -1,0 +1,24 @@
+Recursion_Fibonacci number
+Success rate: 60.69%
+
+Take as input a number n.
+Print the nth number of Fibonacci sequence where
+0th Fibonacci is 0 and 1st Fibonacci is 1. Here is a sample
+0 1 1 2 3 5 8 13 21 34 55
+
+Input Format:
+Integer
+
+Output Format:
+Integer
+
+Constraints:
+n <= 10 ^ 9
+
+Sample test cases
+Input
+6
+Expected output
+
+8
+
