@@ -1,0 +1,21 @@
+Intro to Problem solving_Floor(SQRTN)
+Success rate: 34.87%
+
+You need to find the square root of a given number N. If N is not a perfect square, then floor(√x) must be returned.
+
+Input Format:
+Each of the test cases have one line containing the number N.
+
+Output Format:
+Output a line containing the required output for above query.
+
+Constraints:
+1 ≤ N ≤ 10^9
+
+Sample test cases
+Input
+11
+Expected output
+
+3
+

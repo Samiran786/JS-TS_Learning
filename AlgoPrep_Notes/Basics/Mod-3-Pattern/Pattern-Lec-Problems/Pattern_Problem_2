@@ -1,0 +1,43 @@
+Pattern_2
+Success rate: 28.24%
+
+Take as input a number n, the number of rows
+
+Print the following pattern
+
+  *
+ ***
+*****
+ ***
+  *
+
+for n = 5.
+
+Input Format:
+Integer
+
+Output Format:
+Pattern for n = 5
+
+  *  
+ ***  
+*****  
+ ***  
+  *  
+
+Constraints:
+1 <= n <= 25 and is an odd number
+
+Sample test cases
+Input
+7
+Expected output
+
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+

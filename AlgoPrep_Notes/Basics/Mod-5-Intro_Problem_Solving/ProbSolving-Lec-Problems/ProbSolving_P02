@@ -1,0 +1,20 @@
+Intro to Problem Solving_IsPrime Optimal
+Success rate: 38.87%
+
+You need to find whether a given input number is prime or not.
+
+Input Format:
+Each of the test cases have one line containing the number N for which primality needs to be checked.
+
+Output Format:
+Output a line containing a string "Yay" or "Nay" for Yes and No respectively.
+
+Constraints:
+1 ≤ N ≤ 10^12
+Sample test cases
+Input
+15
+Expected output
+
+Nay
+

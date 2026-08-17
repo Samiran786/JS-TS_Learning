@@ -1,0 +1,38 @@
+Pattern_4
+Success rate: 31.29%
+
+Take as input a number n, the number of rows
+Print the following pattern
+
+1
+2	3
+4	5	6
+7	8	9	10
+
+for n = 4.
+
+Input Format:
+Integer
+
+Output Format
+Pattern for n = 4.
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+Constraints:
+1 <= n <= 25
+
+Sample test cases
+Input
+5
+Expected output
+
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+

@@ -1,0 +1,21 @@
+Intro to Problem Solving_Sum of Natural Numbers
+Success rate: 30.28%
+
+You need to find the sum of first N natural numbers.
+
+Input Format:
+Each of the test cases have one line containing the number N.
+
+Output Format:
+Output a line containing the required sum.
+
+Constraints:
+1 ≤ N ≤ 10^18
+
+Sample test cases
+Input
+4
+Expected output
+
+10
+

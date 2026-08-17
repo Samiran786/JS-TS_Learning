@@ -1,0 +1,26 @@
+Arrays2_Rotate Array
+Success rate: 32.83%
+
+Given an integer array nums of size N, rotate the array to the right by k steps, where k is non-negative.
+
+Input Format:
+The first line contains an integer n denoting size of the array.
+Next line contains the elements of array.
+Next line contains the integer k.
+
+Output Format:
+Output the updated array.
+
+Constraints:
+1<=N<=10^6
+1<=k<=10^6
+-10^5<=arr[i]<=10^5
+
+Sample test cases
+Input
+7
+1 2 3 4 5 6 7
+3
+Expected output
+
+5 6 7 1 2 3 4 

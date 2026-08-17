@@ -1,0 +1,26 @@
+Arrays2_Two Sum Brute
+Success rate: 32.94%
+
+Given n length array "arr" and an integer k, Check if there exists a pair(i,j) such that arr[i]+arr[j] == k and i!=j
+
+Input Format:
+Each of the test cases have 3 lines.
+The First line contains the size of the array n.
+The second line contains the n elements of the array.
+The third line contains an integer k
+
+Output Format:
+Print true if there is a valid pair present else print false.
+
+Constraints:
+2 <= array length <= 10^5
+-10^4 <= array[i] <= 10^4
+Sample test cases
+Input
+7
+2 -1 0 3 2 5 7
+8
+Expected output
+
+true
+
