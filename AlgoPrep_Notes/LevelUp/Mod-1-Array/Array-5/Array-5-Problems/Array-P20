@@ -1,0 +1,26 @@
+Arrays5_Print Boundary
+Success rate: 43.40%
+
+Given a square matrix of N*N, print the outer boundary in clockwise direction
+
+Input Format:
+First line contains an integer n representing size of matrix.
+Each of next n lines contain n integer representing array elements.'
+
+Output Format:
+Print the outer boundary in clockwise direction in a line with space in between each.
+
+Constraints:
+1 <= N <= 100
+1 <= arr[i] <= 10^4
+
+Sample test cases
+Input
+3
+1 2 3
+4 5 6
+7 8 9
+
+Expected output
+
+1 2 3 6 9 8 7 4 
