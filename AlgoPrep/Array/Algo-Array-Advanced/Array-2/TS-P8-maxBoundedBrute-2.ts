@@ -50,6 +50,9 @@ function maxBoundBrute1(arr:number[], strtR:number, endR:number):number{
             if(max >= strtR && max<=endR){
                 counter++;
             }
+            if(max>endR){
+                break;
+            }
         }
     }
     return counter;
