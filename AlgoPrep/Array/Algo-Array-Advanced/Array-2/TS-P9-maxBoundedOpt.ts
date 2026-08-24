@@ -1,6 +1,6 @@
 /*
 ==================================================================================================================
-Arrays2_BoundedMaximum - O(N^2) Time Complexity
+Arrays2_BoundedMaximum - O(N) Time Complexity
 Success rate: 32.96%
 
 Given an integer array nums and two integers left and right, return the number of contiguous non-empty subarrays such that the value of the maximum array element in that subarray is in the range [left, right].
