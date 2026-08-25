@@ -29,62 +29,28 @@ Expected output
 
 let arr_maxSub:number[] = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 
-// function maxNumFinderIndex(arr:number[]):number{
-//     let max = arr[0];
-//     for(let i of arr){
-//         if(i>max){
-//             max = i;
-//         }
-//     }
-//     return arr.indexOf(max);
-// }
-
-// function minNumFinderIndex(arr:number[],limit:number):number{
-//     let min = arr[0];
-//     for (let i=1; i<limit+1; i++){
-//         if(arr[i]<min){
-//             min = arr[i];
-//         }
-//     }
-//     return arr.indexOf(min);
-// }
-
-function prefixSumSubArr(arr:number[]):number[]{
-    let pref:number[] = [arr[0]];
-    for(let i=1; i<arr.length; i++){
-        pref[i] = pref[i-1] + arr[i];
-    }
-    return pref;
-}
-
 function maxSumSubArr(arr:number[]):number{
-    // let pref:number[] = prefixSumSubArr(arr);
-    // // let maxNumIndex:number = maxNumFinderIndex(pref);
-    // // let minNumIndex:number = minNumFinderIndex(pref,maxNumIndex);
-    
-    // let maxSumSubArrVal:number = pref[maxNumIndex] - pref[minNumIndex];
-
-    // return maxSumSubArrVal;
-    let prevPref:number = arr[0];
-    let sv:number = 0;
-    let lv:number = 0;
-    let sum:number = 0;
-    for(let i=1; i<arr.length; i++){
-        let pref:number = prevPref + arr[i];
-        console.log(`current pref: ${pref}`)
-        if (pref<prevPref){
-            sv = pref
-            console.log(`Lowest value and previous pref : ${sv}`);
+    let currentPrefSum:number = 0;
+    let minimumPrefSum:number = 0;
+    let candidate:number = 0;
+    let ans:number = 0;
+    for(let i=0; i<arr.length; i++){
+        if(i===0){
+            currentPrefSum = arr[0];
+            minimumPrefSum = arr[0];
+            candidate = arr[0];
+            ans = candidate;
         }else{
-            lv = pref;
-            sum = lv - sv;
-            console.log(`Sum : ${sum}`);
-            
+            currentPrefSum += arr[i];
+            candidate = currentPrefSum - minimumPrefSum;
+            (currentPrefSum < minimumPrefSum) ? minimumPrefSum = currentPrefSum : minimumPrefSum ; 
         }
-        prevPref = pref;
+        if(candidate>ans){
+            ans = candidate
+        }
     }
-    return sum;
+    return ans;
 }
 
-console.log(maxSumSubArr(arr_maxSub))
+console.log(maxSumSubArr(arr_maxSub));
 
