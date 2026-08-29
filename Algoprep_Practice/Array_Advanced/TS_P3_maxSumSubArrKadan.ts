@@ -1,6 +1,6 @@
 /*
 =====================================================================================
-Arrays2_Max Sum Subarray - without Kadans Algo (Prefix sum) - O(N)
+Arrays2_Max Sum Subarray - Kadans Algo  - O(N)
 Success rate: 46.39%
 
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
@@ -26,28 +26,16 @@ Expected output
 6
 =============================================================================================
  */
-
-let arr_ms:number[] = [-2,1,-3,4,-1,2,1,-5,4]; // perfix -> -2,-1,-4,0,-1,1,2,-3,1
-let arr_ms1:number[] = [3,4,2,-14,16,-20,5];
-
-function maxSumSubArrPrefix(arr:number[]):number{
+let arr_ka:number[] = [-2,1,-3,4,-1,2,1,-5,4];
+let arr_ka1:number[] = [3,4,2,-14,16,-20,5];
+function maxSumSubArrKadan(arr:number[]):number{
     let ans :number=0;
-    let candidate:number=0;
-    let sv:number=0;
-    let pref:number=0;
+    let sum:number=0;
     for(let i=0; i<arr.length;i++){
-        pref +=arr[i];
-        candidate = pref - sv;
-        if(sv>pref){
-            sv = pref;
-        }
-        if(candidate>ans){
-            ans = candidate;
-        }
+        (sum>=0) ? sum +=arr[i] : sum = arr[i];
+        (sum>ans) ? ans = sum : ans
     }
     return ans;
 }
-
-
-console.log(maxSumSubArrPrefix(arr_ms));
-console.log(maxSumSubArrPrefix(arr_ms1));
+console.log(maxSumSubArrKadan(arr_ka));
+console.log(maxSumSubArrKadan(arr_ka1));
