@@ -1,0 +1,25 @@
+LU: DP_ Longest Common Subsequence 3 Strings
+Success rate: 54.55%
+
+Given three strings A, B, and C, find the length of the longest subsequence that is common to all three strings.
+
+Input Format:
+A: The first string.
+B: The second string.
+C: The third string.
+
+Output Format:
+The length of the longest common subsequence present in all three strings.
+
+Constraints:
+1 <= n1, n2, n3 <= 20
+
+Sample test cases
+Input
+aab
+abc
+abac
+Expected output
+
+2
+
